@@ -1,43 +1,133 @@
 <!DOCTYPE html>
 <html lang="sk">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Obrázkový kvíz</title>
-    
+    <title>Kvíz o príšerách</title>
+
     <!-- vloženie súboru so štýlmi -->
-    <link rel="stylesheet" href="/style.css">
-    
+    <link rel="stylesheet" href="/style.css" />
+
     <!-- vloženie javascript súboru -->
     <script src="/script.js" defer></script>
-  </head>  
-  
-  <link rel="icon" href="https://cdn.glitch.com/f1e95e05-eb52-422b-ac8a-01bf5bcd6849%2F30a77998-87b3-4ce0-9be7-d1d2bfc9ef58.image.png?v=1610901182270">
-  
+  </head>
+
+  <link
+    rel="icon"
+    href="https://cdn.glitch.com/0b5c0a09-50f8-48e3-8bb4-6d6d393d3833%2Fghast.png?v=1613599275919"
+  />
+
   <body>
-    <h1>Môj Nadpis</h1>
-    <p>text</p>
-    
+    <h1>Kvíz o príšerách</h1>
+
     <!--  1. OTAZKA  -->
-   
     <div class="question">
-      <img>
-      <br> 
-      <input type="radio" id="q1-a1"><label for="q1-a1"></label>
-      <input type="radio" id="q1-a2"><label for="q1-a2"></label>
-      <input type="radio" id="q1-a3"><label for="q1-a3"></label>
+      <h2>Otázka 1</h2>
+      <img
+        src="https://cdn.glitch.com/0b5c0a09-50f8-48e3-8bb4-6d6d393d3833%2Fgodzilla.png?v=1613599288456"
+      />
+      <br />
+      <input type="radio" name="answer1" id="q1-a1" class="correct" /><label
+        for="q1-a1"
+        >Godzilla</label
+      ><br />
+      <input type="radio" name="answer1" id="q1-a2" /><label for="q1-a2"
+        >Drogon</label
+      ><br />
+      <input type="radio" name="answer1" id="q1-a3" /><label for="q1-a3"
+        >Shén Lóng</label
+      ><br />
     </div>
-    
     <!--  KONIEC 1. OTAZKY -->
-    
-    <!--
+
+    <!--  2. OTAZKA  -->
+    <div class="question">
+      <h2>Otázka 2</h2>
+      <img
+        src="https://cdn.glitch.com/0b5c0a09-50f8-48e3-8bb4-6d6d393d3833%2Fstriga.png?v=1613599438483"
+      />
+      <br />
+      <input type="radio" name="answer2" id="q2-a1" /><label for="q2-a1"
+        >Gollum</label
+      ><br />
+      <input type="radio" name="answer2" id="q2-a2" class="correct" /><label
+        for="q2-a2"
+        >Striga</label
+      ><br />
+      <input type="radio" name="answer2" id="q2-a3" /><label for="q2-a3"
+        >Godzilla</label
+      ><br />
+    </div>
+    <!--  KONIEC 2. OTAZKY -->
+
+    <!--  3. OTAZKA  -->
+    <div class="question">
+      <h2>Otázka 3</h2>
+      <img
+        src="https://cdn.glitch.com/0b5c0a09-50f8-48e3-8bb4-6d6d393d3833%2Fghast.png?v=1613599275919"
+      />
+      <br />
+      <input type="radio" name="answer3" id="q3-a1" /><label for="q3-a1"
+        >Creeper</label
+      ><br />
+      <input type="radio" name="answer3" id="q3-a2" /><label for="q3-a2"
+        >Ghost</label
+      ><br />
+      <input type="radio" name="answer3" id="q3-a3" class="correct" /><label
+        for="q3-a3"
+        >Ghast</label
+      ><br />
+    </div>
+    <!--  KONIEC 3. OTAZKY -->
+
+    <!--  4. OTAZKA  -->
+    <div class="question">
+      <h2>Otázka 4</h2>
+      <img
+        src="https://cdn.glitch.com/0b5c0a09-50f8-48e3-8bb4-6d6d393d3833%2Fgollum.png?v=1613599289503"
+      />
+      <br />
+      <input type="radio" name="answer4" id="q4-a1" /><label for="q4-a1"
+        >Slender</label
+      ><br />
+      <input type="radio" name="answer4" id="q4-a2" /><label for="q4-a2"
+        >Dobby</label
+      ><br />
+      <input type="radio" name="answer4" id="q4-a3" class="correct" /><label
+        for="q4-a3"
+        >Golum</label
+      ><br />
+    </div>
+    <!--  KONIEC 4. OTAZKY -->
+
+    <!--  5. OTAZKA  -->
+    <div class="question">
+      <h2>Otázka 5</h2>
+      <img
+        src="https://cdn.glitch.com/0b5c0a09-50f8-48e3-8bb4-6d6d393d3833%2Fgoro.png?v=1613599294621"
+      />
+      <br />
+      <input type="radio" name="answer5" id="q5-a1" class="correct" /><label
+        for="q5-a1"
+        >Goro</label
+      ><br />
+      <input type="radio" name="answer5" id="q5-a2" /><label for="q5-a2"
+        >Uruk-Hai</label
+      ><br />
+      <input type="radio" name="answer5" id="q5-a3" /><label for="q5-a3"
+        >King Kong</label
+      ><br />
+    </div>
+    <!--  KONIEC 5. OTAZKY -->
+
+    <!-- Výsledky  -->
     <div id="results">
-      <button type="button" id="check"></button>
+      <button type="button" id="check">Zisti svoje skóre</button>
       <h3 id="result"></h3>
     </div>
-    -->
-             
+    <!--  KONIEC výsledkov -->
   </body>
 </html>
+
