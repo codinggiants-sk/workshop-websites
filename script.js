@@ -14,6 +14,6 @@ document.getElementById("check").addEventListener("click", function() {
 		}
 	}
 
-	document.getElementById('result').textContent='Correct answers '+points+'/'+questionsNumber;
+	document.getElementById('result').textContent='Správne odpovede '+points+'/'+questionsNumber;
 
 });
